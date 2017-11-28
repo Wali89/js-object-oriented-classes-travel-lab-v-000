@@ -4,7 +4,7 @@ class Driver {
     this.startDate = new Date(dateJoined);
   }
 
-  yearsExperienceFromBeginningOf() {(dateExp) {
+  yearsExperienceFromBeginningOf(dateExp) {
     return new Date(dateExp) - this.startDate;
   }
 }
