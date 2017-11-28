@@ -5,7 +5,6 @@ class Driver {
   }
 }
 
-startDate() {
+function startDate() {
   return Date.parse(this.dateJoined);
 }
-
