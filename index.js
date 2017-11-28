@@ -3,8 +3,8 @@ class Driver {
     this.name = name;
     this.dateJoined = dateJoined;
   }
-}
 
-function startDate() {
-  return Date.parse(this.dateJoined);
 }
+//function startDate() {
+  //return Date.parse(this.dateJoined);
+//}
