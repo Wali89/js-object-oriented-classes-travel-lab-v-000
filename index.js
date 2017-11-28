@@ -27,9 +27,9 @@ class Route {
     let verticalDistance = this.endingLocation.vertical - this.beginningLocation.vertical
     return (Math.abs(horizontalDistance) + Math.abs(verticalDistance))
   }
-  estimatedTime(){
+  estimatedTime(true){
     let blocks = this.blocksTravelled();
-    if (true) { 
+    if (true) {
     return blocks / 2;
   } else {
     return blocks / 3;
