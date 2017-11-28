@@ -3,9 +3,8 @@ class Driver {
     this.name = name;
     this.startDate = new Date(dateJoined);
   }
-
+  yearsExperienceFromBeginningOf() {(dateExp) {
+    return new Date(dateExp) - object.startDate;
+  }
 }
 
-yearsExperienceFromBeginningOf() = function (dateExp, object) {
-  return new Date(dateExp) - object.startDate;
-}
