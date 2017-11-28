@@ -28,6 +28,6 @@ class Route {
     return (Math.abs(horizontalDistance) + Math.abs(verticalDistance))
   }
   estimatedTime(){
-    return blocksTravelled() / 3;
+    console.log(blocksTravelled() / 3);
   }
 }
