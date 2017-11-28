@@ -29,6 +29,10 @@ class Route {
   }
   estimatedTime(){
     let blocks = this.blocksTravelled();
-    return blocks / 3
+    if (true) { 
+    return blocks / 2;
+  } else {
+    return blocks / 3;
+  }
   }
 }
