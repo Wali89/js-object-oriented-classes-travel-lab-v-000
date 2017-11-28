@@ -28,7 +28,7 @@ class Route {
     return (Math.abs(horizontalDistance) + Math.abs(verticalDistance))
   }
   estimatedTime(){
-    let blocks = blocksTravelled();
+    let blocks = this.blocksTravelled();
     return blocks / 3
   }
 }
