@@ -5,6 +5,7 @@ class Driver {
   }
 
 }
-//function startDate() {
-  //return Date.parse(this.dateJoined);
-//}
+
+yearsExperienceFromBeginningOf() = function (dateExp, object) {
+  return new Date(dateExp) - object.startDate;
+}
